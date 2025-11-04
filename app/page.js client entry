@@ -1,0 +1,15 @@
+'use client'
+import React from 'react'
+import Header from '../components/ui/Header'
+import ChatWindow from '../components/ui/ChatWindow'
+
+export default function Page(){
+  return (
+    <main style={{minHeight:'100vh',background:'#0b1020',color:'#e6eef8',padding:'20px',fontFamily:'Inter, Arial'}}>
+      <Header />
+      <div style={{maxWidth:900,margin:'20px auto'}}>
+        <ChatWindow />
+      </div>
+    </main>
+  )
+}
