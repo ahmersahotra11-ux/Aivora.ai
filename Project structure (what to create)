@@ -1,0 +1,16 @@
+aivora-ai/
+├─ app/
+│  ├─ api/chat/route.js
+│  └─ page.js
+├─ components/
+│  ├─ ui/Header.jsx
+│  ├─ ui/ChatWindow.jsx
+│  ├─ ui/Message.jsx
+│  ├─ brain/ModelSelector.jsx
+│  └─ features/HistoryManager.jsx
+├─ lib/db.js
+├─ sql/create_tables.sql
+├─ .env.example
+├─ package.json
+├─ next.config.js
+├─ README.md
